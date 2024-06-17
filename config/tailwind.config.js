@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   darkMode: 'class',
   content: [
@@ -70,7 +72,7 @@ module.exports = {
         plum: '#3A0E31',
         sky: '#CBDFF1',
         moss: '#2D3925',
-        blue: '#2554B1',
+        blue: colors.blue,
         midnight: '#163449',
         orange: '#F68050',
         yellow: '#FDC071',
